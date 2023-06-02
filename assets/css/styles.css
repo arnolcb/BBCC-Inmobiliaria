@@ -18,9 +18,16 @@ nav {
   font-size: 14px;
 }
 
-nav p {
+nav img{
+  width: 70px;
+  height: 70px;
   margin-top: 25px;
   margin-left: 60px;
+}
+
+nav p {
+  margin-top: 25px;
+  margin-left: 10px;
   font-weight: 700;
   margin-right: auto;
   font-size: 18px;

@@ -79,13 +79,12 @@ form.sign-up-form {
 }
 
 .logo img {
-  width: 27px;
+  width: 70px;
   margin-right: 0.3rem;
 }
 
 .logo h4 {
   font-size: 1.1rem;
-  margin-top: -9px;
   letter-spacing: -0.5px;
   color: #1e3240;
 }
