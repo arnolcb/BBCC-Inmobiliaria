@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+nav {
+  display: flex;
+  color: #1e3240;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #afd4e2;
+  padding: 10px;
+  /*text-transform: uppercase;*/
+  font-size: 14px;
+}
+
+nav p {
+  margin-top: 25px;
+  margin-left: 60px;
+  font-weight: 700;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+nav a {
+  margin-top: 25px;
+  text-decoration: none;
+  color: #1e3240;
+  margin-left: 40px;
+}
+
+nav a:hover{
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+nav a:last-child {
+  margin-right: 30px;
+  border-radius: 5px;
+}
+
+#loginnav{
+  border: 1px solid #1e3240;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#loginnav:hover{
+  border: 1px solid #1e3240;
+  padding: 10px 20px;
+  background-color: #1e3240;
+  color: #ffffff;
+  transition: 0.7s;
+}
+
+.hero {
+  width: 100%;
+  height: 800px;
+  background-color: #afd4e2;
+  color: #1e3240;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+/*
+.hero .ctatext, .hero .ctaimage{
+    display: inline-block;
+}
+*/
+
+.ctatext {
+  position: relative;
+  text-align: left;
+  margin-left: 70px;
+  height: 500px;
+}
+
+.ctatext h1 {
+  /*margin-bottom: 200px;*/
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76, 8px;
+}
+
+.ctatext p {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21, 6px;
+  margin-bottom: 32px;
+}
+
+.ctatext a {
+  margin-top: 50px;
+  text-decoration: none;
+  color: #1e3240;
+}
+
+#ctabutton1 {
+  background-color: #1e3240;
+  color: #ffffff;
+  padding: 11px 20px;
+  /*border-radius: 5px;*/
+  margin-right: 10px;
+}
+
+#ctabutton2 {
+  border: 1px solid #1e3240;
+  padding: 10px 20px;
+  /*border-radius: 5px;*/
+}
+
+/*
+.ctaimage{
+
+}*/
+
+.tempimg {
+  background-color: red;
+  width: 200px;
+  height: 300px;
+}
+
+/*About*/
+
+.about {
+  margin-top: 50px;
+  margin-left: 70px;
+  height: 800px; /*500 podria ser mejor*/
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.aboutimg{
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abouttext {
+  text-align: left;
+  width: 50%;
+  margin-left: 30px;
+  color: #1e3240;
+  margin-right: 170px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57, 6px;
+}
+
+.aboutimg img{
+  /*Hacer que sea responsive de acuerdo al tamaño de pantalla*/
+
+}
+
+/*Projects*/
+
+.projects {
+  margin-top: 50px;
+  margin-left: 70px;
+  height: 800px; /*500 podria ser mejor*/
+}
+
+.projectstext h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57, 6px;
+}
+
+.projectstext p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21, 6px;
+  margin-bottom: 32px;
+  color: gray;
+}
+
+.projectsimg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsimg img {
+}
+
+.projectsimg img:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
+/*Testimonial*/
+.testimonial {
+  margin-top: 50px;
+  margin-left: 70px;
+  height: 800px; /*500 podria ser mejor*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonialtop {
+  text-align: center;
+  width: 100%;
+}
+
+.testimonialtop h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.testimonialtop p {
+  text-align: center;
+}
+
+.contedortestimonial {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.testimonialimg{
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonialimg img{
+
+}
+
+.testimonialtext {
+  text-align: right;
+  margin-left: 30px;
+  color: #1e3240;
+  justify-content: center;
+  align-items: center;
+}
+/*Contact*/
+
+.contact {
+  margin-top: 50px;
+  margin-left: 70px;
+  height: 800px; /*500 podria ser mejor*/
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.contactimg{
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactimg img{
+  border-radius: 5px;
+}
+
+.contactform{
+  text-align: left;
+  width: 50%;
+  margin-left: 30px;
+  color: #1e3240;
+  margin-right: 170px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactform h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57, 6px;
+}
+
+.contactform p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21, 6px;
+  margin-bottom: 32px;
+  color: gray;
+}
+
+.contactform input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #1e3240;
+  border-radius: 5px;
+}
+
+.contactform textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #1e3240;
+  border-radius: 5px;
+}
+
+#rowg1{
+  margin-right: 10px;
+}
+
+.contactform .form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactform .form-group {
+  flex-basis: 100%; /**/
+}
+
+.contactform .form-group:last-child {
+  flex-basis: 100%;
+}
+
+.contactform input[type="submit"] {
+  background-color: #1e3240;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #1e3240;
+  color: #ffffff;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  height: 400px;
+}
+
+.ContenedorFooter {
+  margin-bottom: 20px;
+}
+
+.Rights {
+  text-align: center;
+}
