@@ -188,11 +188,6 @@ Estilos para botones eliminados
   line-height: 57, 6px;
 }
 
-.aboutimg img{
-  /*Hacer que sea responsive de acuerdo al tamaño de pantalla*/
-
-}
-
 /*Projects*/
 
 .projects {
@@ -301,9 +296,11 @@ Estilos para botones eliminados
   margin-bottom: 15px;
 }
 
+/*
 .cuerpo-test{
 
 }
+*/
 
 .autor-test{
   margin-top: 15px;

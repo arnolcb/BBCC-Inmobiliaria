@@ -31,7 +31,7 @@ Este cronograma es la característica principal y en la que consiste el desarrol
 ## Programadores ✍️
 
 **U20201B338** - [@arnolcb](https://github.com/arnolcb) - Arnol Cáceres - FrontEnd y BackEnd  
-**U20201B507** - [@nose]() - Jenny Balceda - UX/UI Designer y FrontEnd
+**U20201B507** - [@JennyBalceda](https://github.com/JennyBalceda) - Jenny Balceda - UX/UI Designer y FrontEnd
 
 <!--
 ## Instalación 🔧
