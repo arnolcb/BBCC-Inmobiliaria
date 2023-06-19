@@ -128,3 +128,37 @@ main {
 #cuotam{
   background-color: #afd4e2;
 }
+
+/*Cronograma*/
+
+.cronograma {
+  margin-top: 20px;
+  
+}
+
+.tabla-res{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+  background-color: #afd4e2;
+}
+
+.tabla-res thead{
+  background-color: #1e3240;
+  color: #ffffff;
+}
+
+.tabla-res tr{
+
+}
+
+.tabla-res td{
+  padding: 5px;
+
+}
