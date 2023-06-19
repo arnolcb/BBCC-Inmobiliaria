@@ -95,6 +95,7 @@ var desgravamenInput = document.getElementById("segurod");
 var plazoInput = document.getElementById("plazo");
 var inmuebleInput = document.getElementById("seguroi");
 
+/*
 plazoInput.addEventListener("input", function () {
   var tea = parseFloat(teaInput.value);
   var desgravamen = parseFloat(desgravamenInput.value);
@@ -106,4 +107,36 @@ plazoInput.addEventListener("input", function () {
 
   // Mostrar la cuota mensual
   cuotaMensualSpan.innerHTML = cuotaMensual;
+});
+*/
+
+function calcularCuota() {
+  var tea = parseFloat(teaInput.value);
+  var desgravamen = parseFloat(desgravamenInput.value);
+  var inmueble = parseFloat(inmuebleInput.value);
+  var plazo = parseFloat(plazoInput.value);
+
+  // Calculamos la cuota mensual
+  var cuotaMensual = desgravamen + inmueble + tea + plazo;
+
+  // Mostrar la cuota mensual
+  cuotaMensualSpan.innerHTML = cuotaMensual;
+}
+
+window.addEventListener("load", function () {
+  var cuotaMensualSpan = document.getElementById("cuota");
+  var teaInput = document.getElementById("tea");
+  var desgravamenInput = document.getElementById("segurod");
+  var plazoInput = document.getElementById("plazo");
+  var inmuebleInput = document.getElementById("seguroi");
+
+  var inputs = [teaInput, desgravamenInput, plazoInput, inmuebleInput];
+
+  // Asignar el evento input a todos los inputs relevantes
+  inputs.forEach(function (input) {
+    input.addEventListener("input", calcularCuota);
+  });
+
+  // Llamamos a la función por primera vez
+  calcularCuota();
 });
