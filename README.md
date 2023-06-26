@@ -7,7 +7,7 @@
 
 <div align="center">
 
-  [![Status](https://img.shields.io/badge/status-inactive-red.svg)]() 
+  [![Status](https://img.shields.io/badge/status-active-green.svg)]() 
   [![License](https://img.shields.io/badge/license-GNU-blue.svg)](/LICENSE)
 
 </div>
@@ -15,6 +15,7 @@
 ---
 
 <!--# BBCC-Inmobiliaria-->
+Prueba la aplicación en el siguiente enlace: https://bbcc-inmobiliaria-production.up.railway.app/
 ## Sobre el proyecto 📄
 **Trabajo final del curso Finanzas e Ingeniería Económica - UPC**  
 Este proyecto está enfocado desde el punto de vista de una Empresa inmobiliaria, la cual se dedica a la venta de departamentos, casas, etc, para ello se requiere de un sistema que permita calcular el cronograma de pagos del [Nuevo Crédito Mi Vivienda](https://www.mivivienda.com.pe/portalweb/usuario-busca-viviendas/pagina.aspx?idpage=20), el cual se otorga a las familias peruanas para que puedan comprar una vivienda nueva, construir en terreno propio, mejorar o ampliar su actual vivienda.  
