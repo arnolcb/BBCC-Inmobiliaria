@@ -3,10 +3,10 @@
 $data = json_decode(file_get_contents("php://input"));
 
 // Conectar a la base de datos
-$servername = "127.0.0.1:33065";
-$username = "root";
-$password = "";
-$dbname = "bbcc_db";
+$servername = "sql9.freemysqlhosting.net";
+$username = "sql9627356";
+$password = "1KZ3veQiT8";
+$dbname = "sql9627356";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Verificar la conexión a la base de datos
