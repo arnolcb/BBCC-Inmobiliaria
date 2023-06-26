@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+/*Header*/
+header {
+  background-color: #afd4e2;
+  opacity: 0.95;
+  color: #1e3240;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+.userTarget {
+  display: flex;
+  align-items: center;
+}
+
+.userTarget img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.cerrar-sesion {
+  color: #000000;
+  font-size: 14px;
+}
+
+/*Main*/
+main {
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 70px;
+}
+
+.welcome{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/*Opciones (Vistas de página)*/
+.options {
+  text-align: center;
+  align-items: center;
+  font-family: "Poppins";
+  margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options a {
+  text-decoration: none;
+  color: #1e3240;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+/*
+.options a:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+*/
+
+.options .option3{
+    font-weight: 700;
+}
+
+
+.text_logo{
+    margin-left: 30px;
+}
+
+/*Contenido*/
+
+.contenedor-guia{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.guia{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.guia h1{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.guia h2{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contenedor-imagen {
+  /*background-color: red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Ajusta la altura según tus necesidades */
+}
+
+.imagen {
+  width: 90%;
+  max-width: 800px; /* Establece el ancho máximo en píxeles para pantallas grandes */
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .imagen {
+    width: 100%;
+    max-width: none; /* Elimina el ancho máximo en pantallas pequeñas */
+  }
+
+  .imagen img {
+    width: 100%;
+    height: auto;
+  }
+}

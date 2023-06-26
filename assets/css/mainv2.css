@@ -136,29 +136,174 @@ main {
   
 }
 
-.tabla-res{
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 20px;
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
   border-radius: 5px;
-  border-collapse: collapse;
+  border: 1px solid #ccc;
+  outline: none;
   text-align: center;
-  margin: 0 auto;
-  width: 800px;
-  background-color: #afd4e2;
 }
 
-.tabla-res thead{
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('../images/arrows/down-arrow.png');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding-right: 30px;
+}
+
+.formulario label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.formulario span {
+  display: inline-block;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.formulario .button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button-container button {
+  font-weight: bold;
+  margin: 0 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-container button.calculate {
+  background-color: #ffffff;
+  border: #1e3240 solid 1px;
+  color: #1e3240;
+}
+
+/*
+.button-container button.calculate:hover {
+  background-color: #afd4e2;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+*/
+.button-container button.cancel {
   background-color: #1e3240;
   color: #ffffff;
 }
 
-.tabla-res tr{
-
+.cronograma .tabla-res {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border-collapse: collapse;
+  text-align: center;
 }
 
-.tabla-res td{
-  padding: 5px;
-
+.cronograma .tabla-res thead {
+  background-color: #1e3240;
+  color: #ffffff;
 }
+
+.cronograma .tabla-res td,
+.cronograma .tabla-res th {
+  padding: 10px;
+}
+
+.cronograma .tabla-res tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+/* Estilo para los elementos <span> dentro del formulario */
+.formulario span {
+  display: inline-block;
+  width: 100%; /* Ancho igual al 100% */
+  height: 40px;
+  box-sizing: border-box; /* Incluir el padding y border en el ancho */
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  align-items: center;
+  line-height: 40px;
+}
+
+/* Estilo para los elementos <span> dentro del formulario cuando se llenan por código */
+.formulario span.filled {
+  background-color: #ddd;
+}
+
+/*Nuevo*/
+/*Indicadores de rentabilidad*/
+.rent-card {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.rent-title{
+  margin-bottom: 10px;
+  color: #1e3240  ;
+}
+
+.rent-v {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rent-v p {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.rent-message{
+  margin-top: 5px;
+  font-size: 13px;
+  color: #818181;
+}
+
+.rent-v span {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  line-height: 40px;
+}
+
+.select_tasa p{
+  margin-left: 5px;
+  line-height: 40px;
+}
+
+/*
+
+.guia {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*/

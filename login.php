@@ -1,5 +1,13 @@
+<?php
+session_start();
+
+if (isset($_SESSION['mail'])) {
+  header('Location: main.php');
+}
+?>
+
 <!DOCTYPE html>
-<html lang="e">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,7 +21,7 @@
       <div class="box">
         <div class="inner-box">
           <div class="forms-wrap">
-            <form action="index.html" autocomplete="off" class="sign-in-form">
+            <form action="php/login_usuario_be.php" method="POST" autocomplete="off" class="sign-in-form">
               <div class="logo">
                 <img src="assets/images/BBCC_logo.png" alt="easyclass" />
                 <h4>BBCC Inmobiliaria</h4>
@@ -32,6 +40,7 @@
                     minlength="4"
                     class="input-field"
                     autocomplete="off"
+                    name = "mail"
                     required
                   />
                   <label>Correo electrónico</label>
@@ -43,6 +52,7 @@
                     minlength="4"
                     class="input-field"
                     autocomplete="off"
+                    name = "password"
                     required
                   />
                   <label>Contraseña</label>
@@ -57,7 +67,7 @@
               </div>
             </form>
 
-            <form action="index.html" autocomplete="off" class="sign-up-form">
+            <form action="php/registro_usuario_be.php" method="POST"autocomplete="off" class="sign-up-form">
               <div class="logo">
                 <img src="assets/images/BBCC_logo.png" alt="easyclass" />
                 <h4>BBCC Inmobiliaria</h4>
@@ -76,6 +86,7 @@
                     minlength="4"
                     class="input-field"
                     autocomplete="off"
+                    name="user"
                     required
                   />
                   <label>Nombre de usuario</label>
@@ -86,6 +97,7 @@
                     type="email"
                     class="input-field"
                     autocomplete="off"
+                    name="mail"
                     required
                   />
                   <label>Correo electrónico</label>
@@ -97,6 +109,7 @@
                     minlength="4"
                     class="input-field"
                     autocomplete="off"
+                    name="password"
                     required
                   />
                   <label>Contraseña</label>
