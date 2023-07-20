@@ -26,8 +26,9 @@ Este cronograma es la característica principal y en la que consiste el desarrol
 * [PHP v8.0.10](https://www.php.net/docs.php) - Lenguaje de programación
 * [MySQL v8.0.33](https://dev.mysql.com/doc/) - Base de datos relacional
 
+<!--
 ## Entorno 📦
-
+-->
 
 ## Programadores ✍️
 
